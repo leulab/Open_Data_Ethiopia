@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Food Security: Ethiopia</title>
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+		<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="highcharts.js"></script>
+
+
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	</head>
+	<body>
+            <!-- navbar -->
+    <nav class="navbar navbar-default fixed-top navbar-toggleable-md bg-info navbar-inverse">
+        <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">Open Ethiopia</a>
+                    <a class="nav-item nav-link" href="usecase.html">Use-Cases</a>
+                    <a class="nav-item nav-link" href="stats.html">Other Statistics</a>
+                    <a class="nav-item nav-link" href="datavizrequest.html">Data Visualiztion Request</a>
+		    <a class="nav-item nav-link" href="about.html">About</a>
+				
+                </div>
+            </div>
+        </div>
+    </nav>
+	<div class="contianer" align="center">
+                        <div class="page-header">
+                                <h2> Data Requests</h2>
+                        </div>
+        </div>
+	<div class="container text-muted">
+			<div class="row">
+			<div class="col-md-3 col-lg-3" id="inflationr_note">
+			<div class="card">
+			<div class="card-block">
+			<h3 class="card-title">Data requests</h3>
+			<p class="card-text">You can request for a data visualization here. The request should be related with food security, Ethiopia and Open Data. If the Data sets are available from data sources we will provide you with one. You can also leave us your comments about our effort on using Open Data for facilitating development.</P>
+			</div></div></div>
+	<form id="request-form" method="post" action="pushtodb.php" role="form">
+
+
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="form_name">Name *</label>
+						<input id="form_name" type="text" name="name" class="form-control" placeholder="name *" required="required" data-error="Name is required.">
+						<div class="help-block with-errors"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="form_email">Email *</label>
+						<input id="form_email" type="email" name="email" class="form-control" placeholder="contact email *" required="required" data-error="Valid email is required.">
+						<div class="help-block with-errors"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label for="form_message">Description *</label>
+						<textarea id="form_message" name="descr" class="form-control" placeholder="description of your request here (1000 chars max)*" rows="4" required="required" data-error="Please,leave a description."></textarea>
+						<div class="help-block with-errors"></div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<input type="submit" class="btn btn-success btn-send" value="Send Request">
+				</div>
+			</div>
+
+
+	</form>
+	</div></div>
+
+		
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+    </script>
+	</body>
+</html>

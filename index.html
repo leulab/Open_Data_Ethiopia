@@ -1,0 +1,133 @@
+[B<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+ 
+    <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-default fixed-top  navbar-toggleable-md bg-info navbar-inverse">
+        <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">Open Ethiopia</a>
+                    <a class="nav-item nav-link" href="usecase.html">Use-Cases</a>
+                    <a class="nav-item nav-link" href="stats.html">Other Statistics</a>
+                    <a class="nav-item nav-link" href="datavizrequest.html">Data Visualization Request</a>
+		    <a class="nav-item nav-link" href="about.html">About</a>
+					
+                </div>
+            </div>
+        </div>
+    </nav>
+ 	
+    <div class="jumbotron jumbotron-fluid bg-info text-white text-center">
+        <div class="container">
+            <h1 class="display-1">Open Ethiopia</h1>
+            <p class="lead">a simple open data driven application</p>
+        </div>
+    </div>
+
+    <div class="container text-muted">
+
+        <!-- cards -->
+
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                  
+                    <div class="card-block">
+                        <h3 class="card-title">Economic Overview</h3>
+                        <p class="card-text">Ethiopia is the second-most populous country in Africa with a population of 102 million(2016). One of the world’s oldest civilizations, it is also one of the world’s poorest countries. The country’s per capita income of $1,730 is substantially lower than the regional average (source:<a href="https://data.worldbank.org/indicator/NY.GNP.PCAP.PP.CD"> World Bank</a>). The government aspires to reach lower-middle income status over the next decade.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                  
+                    <div class="card-block">
+                        <h3 class="card-title">GDP Growth</h3>
+                        <iframe src="https://data.worldbank.org/share/widget?indicators=NY.GDP.MKTP.CD&locations=ET&view=chart" width='300' height='260' frameBorder='0' scrolling="no" ></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                 
+                    <div class="card-block">
+                        <h3 class="card-title">Food Security</h3>
+                        <p class="card-text">By the end of 2030 the Ethiopian governement expects to achieve food security and improved nutrition and promote sustainable agriculture. 
+The country desires to  transform the economy from that of agricultural development led to industrial economy with a realization of food security 
+while aid-dependency ceases to exist. Source: <a href="https://sustainabledevelopment.un.org/memberstates/ethiopia"> United Nations </a></p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- navs -->
+
+        <h2 class="display-4 py-5 mt-5 text-center">Open Data for Ethiopia</h2>
+
+        <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
+            <a class="nav-link active" href="#worldbank" data-toggle="tab">World Bank</a>
+            <a class="nav-link" href="#adb" data-toggle="tab">ADB</a>
+            <a class="nav-link" href="#etgov" data-toggle="tab">Open Data Portal</a>
+            <a class="nav-link" href="#fsp" data-toggle="tab">IFPRI</a>
+        </nav>
+
+        <div class="tab-content py-5">
+            <div class="tab-pane active" id="worldbank">
+                <h3>The World Bank</h3>
+                <p>The <span data-toggle="tooltip" title="data.worldbank.org" data-placement="bottom" class="text-info">World Bank</span> recognizes that transparency 
+				and accountability are essential to the development process and central to achieving the Bank’s mission to alleviate poverty. The Bank’s commitment to
+				openness is also driven by a desire to foster public ownership, partnership and participation in development from a wide range of stakeholders. 
+				As a knowledge institution, the World Bank’s first step is to share its knowledge freely and openly.
+				In doing so the world bank regulary collects data from Ethiopia on the countries development coarse and can be found here:
+				<a href="https://data.worldbank.org/country/ethiopia?view=chart">Ethopia </a> </p>
+            </div>
+            <div class="tab-pane fade" id="adb">
+                <h3>The African Development Bank</h3>
+                <p>An <span data-toggle="tooltip" title="opendataforafrica.org" data-placement="bottom" class="text-info">inititive</span> sponsored by the african development bank for collects development related data from African countires and makes it abailable for everyone as an open data platform.
+				Data for Ethiopia can be found here: <a href="http://ethiopia.opendataforafrica.org/">Ethiopia</a></p>
+         
+            </div>
+            <div class="tab-pane fade" id="etgov">
+                <h3>Ethiopian Government Open Data Portal</h3>
+                <p>The Government is releasing public data to help people understand how government works and how policies are made. 
+				Some of this data is already available, but data.gov.et brings it together in one searchable website. 
+				Making this data easily available means it will be easier for people to make decisions and suggestions about 
+				government policies based on detailed information. This open data portal can be accessed here:<a href="https://www.data.gov.et/about"> Ethiopia </a> </p>
+            </div>
+            <div class="tab-pane fade" id="fsp">
+                <h3>International Food Policy Research Institute</h3>
+                <p>The Food Security Portal, facilitated by IFPRI, aims to provide improved food security for the world's poor 
+				and increased resilience of global food systems against food and financial crises. The project brings together 
+				international, regional, and country-level data, news, and research 
+				aimed at meeting countries' immediate food security needs, as well as building long-term global food security. 
+				Data about Ethiopia can be accessed by selecting a <a href="http://www.foodsecurityportal.org/api">data set </a>from the available list. </p>
+            </div>
+        </div>
+
+    </div><!-- end .container -->
+	
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+    </script>
+  </body>
+</html>
